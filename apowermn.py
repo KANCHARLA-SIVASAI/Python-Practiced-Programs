@@ -1,0 +1,12 @@
+#(a power m) power n
+a=float(input("enter value of a:"))
+m=float(input("enter value of m:"))
+n=float(input("enter value of n:"))
+print(((a**m)**n))
+print(a**(m*n))
+#(a power m)/(a power n)
+a=float(input("enter value of a:"))
+m=float(input("enter value of m:"))
+n=float(input("enter value of n:"))
+print((a**m)/(a**n))
+print(a**(m-n))
